@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".GreenCleanActivity">
+
+    <ImageView
+        android:id="@+id/imageView7"
+        android:layout_width="88dp"
+        android:layout_height="63dp"
+        android:layout_marginTop="192dp"
+        app:layout_constraintEnd_toStartOf="@+id/textView2"
+        app:layout_constraintHorizontal_bias="0.463"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView3"
+        app:srcCompat="@drawable/ecolabel" />
+
+    <ImageView
+        android:id="@+id/imageView3"
+        android:layout_width="220dp"
+        android:layout_height="266dp"
+        android:layout_marginTop="33dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/greenclean" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="258dp"
+        android:layout_height="75dp"
+        android:layout_marginTop="15dp"
+        android:layout_marginEnd="20dp"
+        android:gravity="center"
+        android:text="Vegan sertifikası, The VeganSociety tarafından verilen bir sertifikadır. Vegan sertifikası almak için herhangi bir üründe asla hayvansal madde kullanılmaması ve ürünün hayvanlar üzerinde test edilmemesi gerekmektedir. Green Clean ürünlerindeki gerek ana kimyasalların gerekse yardımcı malzemelerin hiçbiri hayvansal hammadde içermemektedir. Green Clean, formülasyonunda kullanılan hammaddeler bitkisel bazlıdır. Bu ürünler hindistan cevizi, palmiye yağı, buğday ve patatesten elde edilmiştir. "
+        android:textSize="8sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView3" />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="260dp"
+        android:layout_height="58dp"
+        android:layout_marginTop="104dp"
+        android:layout_marginEnd="16dp"
+        android:gravity="center"
+        android:text="Allergy Certifıed, 2015 yılında Danimarka'da kurulan uluslararası bir sen ifikatyon kur. ulusudur. Allergy Certified etiketi bulunan urünler, mıhı kullanımından dolayı alerji gelistirnse riskinin en az seviyede olduğunu garanti eder. Toksikologlar ürününün iceriğindeki her maddeyi inceleyerek bir risk değerlendirmesi gercekleıtirir.  "
+        android:textSize="8"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView3" />
+
+    <TextView
+        android:id="@+id/textView5"
+        android:layout_width="260dp"
+        android:layout_height="58dp"
+        android:layout_marginTop="192dp"
+        android:layout_marginEnd="16dp"
+        android:gravity="center"
+        android:text="Ecolabel, tüm dünyada uygulanan gönüllü bir cevresel performans sertifikası ve etıketleme yontemidır. Ecolabel efiketi, uretım ve tüketim asamılırındı çevreye olan negıtif etkileri en ısagıya çekilmiş ürünleri tanımlar niteliktedır.  "
+        android:textSize="8"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView3" />
+
+    <ImageView
+        android:id="@+id/imageView5"
+        android:layout_width="64dp"
+        android:layout_height="56dp"
+        android:layout_marginTop="15dp"
+        app:layout_constraintEnd_toStartOf="@+id/textView2"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView3"
+        app:srcCompat="@drawable/vegan" />
+
+    <ImageView
+        android:id="@+id/imageView6"
+        android:layout_width="64dp"
+        android:layout_height="56dp"
+        android:layout_marginTop="104dp"
+        app:layout_constraintEnd_toStartOf="@+id/textView2"
+        app:layout_constraintHorizontal_bias="0.477"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView3"
+        app:srcCompat="@drawable/alergy" />
+
+    <ImageView
+        android:id="@+id/imageView8"
+        android:layout_width="92dp"
+        android:layout_height="105dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginEnd="40dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@android:drawable/presence_online" />
+
+    <TextView
+        android:id="@+id/textView9"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="5"
+        tools:layout_editor_absoluteX="323dp"
+        tools:layout_editor_absoluteY="57dp" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

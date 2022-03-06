@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".FinishActivity">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:context=".GreenCleanActivity"
+        tools:layout_editor_absoluteX="89dp"
+        tools:layout_editor_absoluteY="101dp">
+
+        <ImageView
+            android:id="@+id/imageView7"
+            android:layout_width="59dp"
+            android:layout_height="55dp"
+            android:layout_marginTop="184dp"
+            app:layout_constraintEnd_toStartOf="@+id/textView2"
+            app:layout_constraintHorizontal_bias="0.29"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/imageView3"
+            app:srcCompat="@android:drawable/ic_delete" />
+
+        <ImageView
+            android:id="@+id/imageView3"
+            android:layout_width="220dp"
+            android:layout_height="266dp"
+            android:layout_marginTop="33dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:srcCompat="@drawable/finish" />
+
+        <TextView
+            android:id="@+id/textView2"
+            android:layout_width="258dp"
+            android:layout_height="75dp"
+            android:layout_marginTop="12dp"
+            android:layout_marginEnd="40dp"
+            android:gravity="center"
+            android:text="ISO 9001 Sertifikasını içermiyor. ISO 9001, etkili bir kalite yOnetim sistemi (KYS) icin gerekli kriterleri belirleyen uluslararası standarttır. ISO 9001 standardı, istikrarlı bir sekilde urun ve hizmet saglayan kuruluşların musterı ve yasal gereksinimlerı karşılaştığını ifade eder.  "
+            android:textSize="8sp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/imageView3" />
+
+        <TextView
+            android:id="@+id/textView3"
+            android:layout_width="260dp"
+            android:layout_height="58dp"
+            android:layout_marginTop="104dp"
+            android:layout_marginEnd="36dp"
+            android:gravity="center"
+            android:text="Bu sertifikayı içermiyor. ISO I 4001, etkili bir çevre yönetim sistemi (EMS) oluşturmak üzere gerekli kriterleri belirleyen bir ulus) ı stanclarttir. Çevresel performans gereksinimlerini sıralamak yerine bir kuruluşun izleyebilecegi ana terteveyi oluşturur.  "
+            android:textSize="8"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/imageView3" />
+
+        <TextView
+            android:id="@+id/textView5"
+            android:layout_width="260dp"
+            android:layout_height="58dp"
+            android:layout_marginTop="184dp"
+            android:layout_marginEnd="36dp"
+            android:gravity="center"
+            android:text="Bu sertifikayı içermiyor. OHSAS 18001, dünya çapında kabul görmus Sağlik ve Güvenlik Yönetim Sistemleri ile ilgili gereklilikleri sağlayan bir standarttır. OHSAS I8001,kurulusların iş sağlığı ve güvenliği için bir sisteme sahip olduklarını garanti eder, normal isleyis içerisinde ve anormal durumlarda açığa çıkan tehlikelerin tanı mlanması nı, kontrol edilmesini ve iyilestirilmesıni sağlar.  "
+            android:textSize="8"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/imageView3" />
+
+        <ImageView
+            android:id="@+id/imageView5"
+            android:layout_width="64dp"
+            android:layout_height="56dp"
+            android:layout_marginTop="32dp"
+            app:layout_constraintEnd_toStartOf="@+id/textView2"
+            app:layout_constraintHorizontal_bias="0.362"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/imageView3"
+            app:srcCompat="@android:drawable/ic_delete" />
+
+        <ImageView
+            android:id="@+id/imageView6"
+            android:layout_width="64dp"
+            android:layout_height="56dp"
+            android:layout_marginTop="104dp"
+            app:layout_constraintEnd_toStartOf="@+id/textView2"
+            app:layout_constraintHorizontal_bias="0.32"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/imageView3"
+            app:srcCompat="@android:drawable/ic_delete" />
+
+        <ImageView
+            android:id="@+id/imageView12"
+            android:layout_width="76dp"
+            android:layout_height="79dp"
+            android:layout_marginTop="24dp"
+            android:layout_marginEnd="36dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:srcCompat="@android:drawable/ic_notification_overlay" />
+
+        <TextView
+            android:id="@+id/textView10"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="1"
+            tools:layout_editor_absoluteX="332dp"
+            tools:layout_editor_absoluteY="53dp" />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+    <ImageView
+        android:id="@+id/imageView9"
+        android:layout_width="220dp"
+        android:layout_height="266dp"
+        android:layout_marginTop="33dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/finish" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
